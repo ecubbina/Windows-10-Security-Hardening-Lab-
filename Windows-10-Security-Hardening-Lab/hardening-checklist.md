@@ -1,0 +1,24 @@
+# Windows 10 Hardening Checklist
+
+- [x] Record Windows version/build
+- [x] Review firewall profile state
+- [x] Review Microsoft Defender state
+- [x] Review local accounts
+- [x] Review password and lockout policy
+- [x] Configure 12-character minimum password length
+- [x] Configure password age and history
+- [x] Configure 5-attempt lockout threshold
+- [x] Require password for active local administrator
+- [x] Confirm built-in Administrator and Guest are disabled
+- [x] Enable Domain, Private and Public firewall profiles
+- [x] Set default inbound action to Block
+- [x] Enable blocked-traffic firewall logging
+- [x] Validate Defender real-time and behavior monitoring
+- [x] Enable PUA protection
+- [x] Confirm UAC is enabled
+- [x] Confirm Remote Desktop is disabled when not required
+- [x] Confirm SMBv1 is disabled
+- [x] Enable authentication/account-management auditing
+- [x] Generate controlled failed-logon activity
+- [x] Investigate Event ID 4625 in Event Viewer
+- [x] Perform final hardening validation
